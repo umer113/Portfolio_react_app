@@ -1,9 +1,8 @@
-// Navbar.js
 
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'; // Add this line
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll'; 
 import { toggleMode } from '../feature/ThemeSlice';
 
 
@@ -21,7 +20,7 @@ const Navbar = () => {
       id: 2,
       link: (
         <a
-          href="/Resume.pdf"
+          href="/assets/Resume.pdf"
           download
           className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
         >

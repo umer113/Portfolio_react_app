@@ -6,7 +6,7 @@ const TestimonialSlide = ({ testimonials, curr, goToSlide }) => (
       <span className="mx-auto">{testimonials[curr].feedback}</span>
     </p>
     <h3 className="text-lg font-opensans text-white mb-2 mt-4">{testimonials[curr].client}</h3>
-    <div className="absolute mt-2 left-1/2 transform -translate-x-1/2">
+    <div className="absolute mt-60 sm:mt-40 left-1/2 transform -translate-x-1/2">
       <div className="flex items-center justify-center gap-2">
         {testimonials.map((_, i) => (
           <div
